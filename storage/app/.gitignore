@@ -1,0 +1,13 @@
+*
+!private/
+!public/
+!.gitignore
+
+# JSON de entrada de la prueba (el XML de salida sí se ignora: es artefacto)
+!cfdi/
+cfdi/*
+!cfdi/input.json
+
+# Espejo local de los XSD oficiales del SAT, necesario para validar sin internet
+!sat/
+!sat/**

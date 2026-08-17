@@ -1,0 +1,58 @@
+{
+  "comprobante": {
+    "version": "4.0",
+    "tipoDeComprobante": "I",
+    "exportacion": "01",
+    "formaPago": "99",
+    "metodoPago": "PPD",
+    "tipoCambio": "1",
+    "moneda": "MXN",
+    "lugarExpedicion": "05120",
+    "serie": "KUAF",
+    "folio": "7189"
+  },
+  "emisor": {
+    "rfc": "EKU9003173C9",
+    "nombre": "ESCUELA KEMPER URGATE",
+    "regimenFiscal": "601"
+  },
+  "receptor": {
+    "rfc": "CNC140828PQ4",
+    "nombre": "CENTRO NACIONAL DE CONTROL DE ENERGIA",
+    "regimenFiscalReceptor": "603",
+    "domicilioFiscalReceptor": "01010",
+    "usoCFDI": "G01"
+  },
+  "conceptos": [
+    {
+      "cantidad": "1",
+      "claveUnidad": "ZZ",
+      "unidad": "Mutuamente definido",
+      "valorUnitario": "2296.26",
+      "claveProdServ": "83101800",
+      "descripcion": "20250206C010K18-A15030:Excedente de la liquidación de los DFT en el MDA a cargas indirectamente modeladas",
+      "objetoImp": "02",
+      "iva": "0.160000"
+    },
+    {
+      "cantidad": "1",
+      "claveUnidad": "ZZ",
+      "unidad": "Mutuamente definido",
+      "valorUnitario": "5567.40",
+      "claveProdServ": "83101800",
+      "descripcion": "20250206C010K18-A19110:Transacciones bilaterales financieras en el MDA al receptor",
+      "objetoImp": "02",
+      "iva": "0.160000"
+    },
+    {
+      "cantidad": "1",
+      "claveUnidad": "ZZ",
+      "unidad": "Mutuamente definido",
+      "valorUnitario": "162.80",
+      "claveProdServ": "83101800",
+      "descripcion": "20250206C010K18-B25180:Reembolso del exceso de cobro por congestión colectado en el MTR",
+      "objetoImp": "02",
+      "iva": "0.160000"
+    }
+  ]
+}
